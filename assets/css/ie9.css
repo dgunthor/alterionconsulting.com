@@ -1,62 +1,34 @@
 /*
-	Stellar by HTML5 UP
+	ZeroFour by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Spotlight */
+/* Basic */
 
-	.spotlight:after {
-		content: '';
-		display: block;
-		clear: both;
+	.button {
+		background-image: url("images/ie/grad0-20.svg");
 	}
 
-	.spotlight .content {
-		float: left;
-		width: 60%;
+	.box-feature1 header.second {
+		left: 0;
 	}
 
-	.spotlight .image {
-		float: left;
+/* Wrappers */
+
+	#footer-wrapper,
+	#header .inner {
+		background-image: url("images/ie/grad0-35.svg");
 	}
 
-/* Features */
+/* Nav */
 
-	.features:after {
-		content: '';
-		display: block;
-		clear: both;
+	.dropotron {
+		background-image: url("images/ie/grad35-0.svg");
 	}
 
-	.features li {
-		float: left;
-	}
+/* Mobile UI */
 
-/* Statistics */
-
-	.statistics {
-		display: inline-block;
-		width: auto;
-	}
-
-		.statistics:after {
-			content: '';
-			display: block;
-			clear: both;
-		}
-
-		.statistics li {
-			float: left;
-			padding: 1.5em 2.5em;
-		}
-
-/* Footer */
-
-	#footer > * {
-		float: left;
-	}
-
-	#footer .copyright {
-		clear: both;
+	#titleBar, #navPanel {
+		background-image: url("images/ie/grad0-35.svg");
 	}

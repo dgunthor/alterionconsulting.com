@@ -1,73 +1,38 @@
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
-@import 'libs/skel';
 
 /*
-	Stellar by HTML5 UP
+	ZeroFour by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Spotlight */
+/* Basic */
 
-	.spotlight {
-		&:after {
-			content: '';
-			display: block;
-			clear: both;
-		}
-
-		.content {
-			float: left;
-			width: 60%;
-		}
-
-		.image {
-			float: left;
-		}
+	.button {
+		background-image: url('images/ie/grad0-20.svg');
 	}
 
-/* Features */
-
-	.features {
-		&:after {
-			content: '';
-			display: block;
-			clear: both;
-		}
-
-		li {
-			float: left;
-		}
+	.box-feature1 header.second {
+		left: 0;
 	}
 
-/* Statistics */
+/* Wrappers	*/
 
-	.statistics {
-		display: inline-block;
-		width: auto;
-
-		&:after {
-			content: '';
-			display: block;
-			clear: both;
-		}
-
-		li {
-			float: left;
-			padding: 1.5em 2.5em;
-		}
+	#footer-wrapper,
+	#header .inner {
+		background-image: url('images/ie/grad0-35.svg');
 	}
 
-/* Footer */
+/* Nav */
 
-	#footer {
-		> * {
-			float: left;
-		}
+	.dropotron {
+		background-image: url('images/ie/grad35-0.svg');
+	}
 
-		.copyright {
-			clear: both;
-		}
+/* Mobile UI */
+
+	#titleBar, #navPanel {
+		background-image: url('images/ie/grad0-35.svg');
 	}
